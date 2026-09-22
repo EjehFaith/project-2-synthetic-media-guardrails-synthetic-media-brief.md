@@ -1,0 +1,34 @@
+# File 4: Synthetic Media Breach & Fraud Response Playbook
+**File Name:** fraud-playbook.md  
+**Target Enterprise:** ZetaMobile Group  
+**Trigger Event:** `Biometric_Status: REJECTED` Bypass or Post-Authentication Identity Dispute  
+**Operational Protocol:** Critical Algorithmic Fraud & Civil Liability Isolation
+
+---
+
+## 1. Automated Incident Containment
+When a user disputes a transaction claiming identity theft via deepfake manipulation, or if the `liveness_check.py` engine flags a high-confidence system compromise, the following automated protocols execute immediately:
+* **Account Quarantine:** The target wallet is placed into a temporary read-only state. Outbound transfers, airtime purchases, and API requests are frozen instantly.
+* **Session Termination:** All active device tokens, push notification keys, and web sessions associated with the user account are invalidated.
+* **Forensic Ingestion Log Export:** The system automatically exports the raw incoming video selfie metadata, IP logs, and system frame rates to a secure, immutable audit environment to preserve evidence for the NDPC and the EFCC.
+
+---
+
+## 2. Multi-Departmental Response Workflow
+
+### 🛠️ Tier 1: Technical & Ingestion Forensics (Hours 0–12)
+The Tech-Risk team investigates how the synthetic media bypassed the security gates.
+* **Audit Vector:** Inspect the log records to determine if the attack vector utilized a hardware camera emulator bypass or if the underlying model suffered from a high false-acceptance drift rate on specific device operating systems.
+* **Fix Action:** Update the injection filters in `liveness_check.py` and submit a fresh model telemetry log to the continuous integration pipeline.
+
+### ⚖️ Tier 2: Legal Risk & Compliance Isolation (Hours 12–24)
+The Compliance Officer evaluates corporate exposure to minimize strict liability under the **July 2026 CBN Baseline Security Mandate**.
+* **Statutory Check:** Verify that the liveness validation failure did not occur due to an un-patched architectural vulnerability, which would trigger a ₦10,000,000 corporate data negligence penalty under the **NDPA 2023**.
+* **Regulatory Reporting:** Draft a formal Security Incident Report for the Central Bank of Nigeria (CBN) and the Nigeria Data Protection Commission (NDPC) within the mandatory statutory reporting windows.
+
+---
+
+## 3. Civil Liability & Customer Compensation Protocol
+To completely neutralize devastating negligence lawsuits and protect company valuation, ZetaMobile avoids shifting the tracking burden onto the consumer:
+1. **Immediate Provisional Credit:** If forensic logs confirm a synthetic model injection bypass occurred without user negligence (no PIN compromise), ZetaMobile immediately issues a provisional credit matching the stolen amount into a secured, secondary vault account.
+2. **Mandatory Post-Incident Review:** The engineering team runs a simulated adversarial attack using open-source CycleGAN models to verify that the upgraded liveness check maintains an updated 100% block rate on the discovered threat vector.
